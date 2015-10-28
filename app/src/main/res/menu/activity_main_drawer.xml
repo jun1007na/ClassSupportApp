@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="時間割">
+        <menu>
+            <item android:id="@+id/nav_card" android:icon="@android:drawable/ic_menu_gallery"
+                android:title="カード" />
+            <item android:id="@+id/nav_classic" android:icon="@android:drawable/ic_menu_week"
+                android:title="クラシック" />
+        </menu>
+    </item>
+
+    <item android:title="課題">
+        <menu>
+            <item android:id="@+id/nav_list" android:icon="@android:drawable/ic_menu_sort_by_size"
+                android:title="リスト" />
+            <item android:id="@+id/nav_calender" android:icon="@android:drawable/ic_menu_today"
+                android:title="カレンダー" />
+        </menu>
+    </item>
+
+    <item android:title="設定">
+        <menu>
+            <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
+                android:title="設定" />
+            <item android:id="@+id/nav_info" android:icon="@android:drawable/ic_menu_info_details"
+                android:title="このアプリについて" />
+        </menu>
+    </item>
+
+</menu>
